@@ -1,0 +1,416 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Hay"
+            ],
+            "responses": [
+                "Hello",
+                "Hi",
+                "Hi there"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later",
+                "Have a nice day",
+                "Bye! Come back again"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're most welcome!"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Who you are?"
+            ],
+            "responses": [
+                "Im Friday, your bot assistant",
+                "I'm Friday, an Artificial Intelligent bot"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Friday.",
+                "I'm Friday!",
+                "Just call me as Friday"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Could you help me?",
+                "give me a hand please",
+                "Can you help?",
+                "What can you do for me?",
+                "I need a support",
+                "I need a help",
+                "support me please"
+            ],
+            "responses": [
+                "Tell me how can assist you",
+                "Tell me your problem to assist you",
+                "Yes Sure, How can I support you"
+            ]
+        },
+        {
+            "tag": "createaccount",
+            "patterns": [
+                "I need to create a new account",
+                "how to open a new account",
+                "I want to create an account",
+                "can you create an account for me",
+                "how to open a new account"
+            ],
+            "responses": [
+                "You can just easily create a new account from our web site",
+                "Just go to our web site and follow the guidelines to create a new account"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "responses": [
+                "Please provide us your complaint in order to assist you",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+            ]
+        },
+        {
+            "tag": "visit",
+            "patterns": [
+                "what are the places to visit in manipal",
+                "roam around",
+                "around manipal",
+                "Other places to visit"
+            ],
+            "responses": [
+                "Beaches: Malpe,Mattu,Kodi Bengde,kapu",
+                "Kudremukh,Rock point,End point,Railway bridge,Manipal lake"
+            ]
+        },
+        {
+            "tag": "food",
+            "patterns": [
+                "what are the famous food in manipal",
+                "Famous foods of manipal",
+                "Manipal street food",
+                "street foods"
+            ],
+            "responses": [
+                "Fishes:Disco,bangda,prawns, Rawa fry , tawa fry"
+            ]
+        },
+        {
+            "tag": "Restaurants",
+            "patterns": [
+                "What are the famous restaurants in manipal?",
+                "Restaurants near me",
+                "Famous restaurant in manipal?",
+                "restaurants in manipal?"
+            ],
+            "responses": [
+                "Vito's manipal,Kyoto,Hadiqa,A cafe story,Grubs Monkey,Hotel shubham,Fulfills, BBQ-nation"
+            ]
+        },
+        {
+            "tag": "Vito's",
+            "patterns": [
+                "How do i get to vito's manipal?",
+                "Vito's manipal distance",
+                "Vito's manipal direction",
+                "Give me the direction of vito's manipal"
+            ],
+            "responses": [
+                "Start from Gate-2 towards gate 1,It is on the building of Radha medicals beside Canara mall"
+            ]
+        },
+        {
+            "tag": "kyoto",
+            "patterns": [
+                "How do i get to Kyoto?",
+                "Kyoto distance",
+                "Kyoto direction",
+                "Give me the direction of Kyoto"
+            ],
+            "responses": [
+                "Start from Gate-2 towards gate 1, It is on the building of Radha medicals beside Canara mall"
+            ]
+        },
+        {
+            "tag": "mit_manipal_faq_location",
+            "patterns": [
+                "Where is MIT Manipal located?",
+                "MIT Manipal address",
+                "Location of MIT Manipal",
+                "Address of MIT Manipal"
+            ],
+            "responses": [
+                "MIT Manipal is located in Manipal, Karnataka, India."
+            ]
+        },
+        {
+            "tag": "mit_manipal_faq_admissions",
+            "patterns": [
+                "How can I apply for admissions to MIT Manipal?",
+                "Admission process of MIT Manipal",
+                "MIT Manipal application procedure",
+                "Steps to get into MIT Manipal"
+            ],
+            "responses": [
+                "To apply for admissions to MIT Manipal, you need to visit the official website and follow the instructions provided in the admissions section."
+            ]
+        },
+        {
+            "tag": "mit_manipal_faq_courses",
+            "patterns": [
+                "What courses does MIT Manipal offer?",
+                "List of programs in MIT Manipal",
+                "MIT Manipal majors",
+                "Available courses at MIT Manipal"
+            ],
+            "responses": [
+                "MIT Manipal offers a wide range of undergraduate and postgraduate programs in various disciplines including engineering, medicine, management, and more."
+            ]
+        },
+        {
+            "tag": "mit_manipal_faq_hostel",
+            "patterns": [
+                "Are hostel facilities available at MIT Manipal?",
+                "MIT Manipal accommodation",
+                "Hostels in MIT Manipal",
+                "Housing options at MIT Manipal"
+            ],
+            "responses": [
+                "Yes, MIT Manipal provides hostel facilities for its students. There are various hostels on campus catering to different needs and preferences."
+            ]
+        },
+        {
+            "tag": "mit_manipal_faq_placement",
+            "patterns": [
+                "How is the placement scenario at MIT Manipal?",
+                "MIT Manipal placements",
+                "Placement statistics of MIT Manipal",
+                "Job opportunities after graduating from MIT Manipal"
+            ],
+            "responses": [
+                "MIT Manipal has a strong placement record with many reputed companies visiting the campus for recruitment every year. The placement cell actively works towards providing opportunities for students."
+            ]
+        },
+        {
+            "tag": "manipal_restaurants_cafes_faq_location",
+            "patterns": [
+                "Where are the restaurants and cafes in Manipal located?",
+                "Manipal dining locations",
+                "Location of restaurants and cafes in Manipal",
+                "Addresses of restaurants and cafes in Manipal"
+            ],
+            "responses": [
+                "Restaurants and cafes in Manipal are spread across different areas of the town, with popular spots including End Point Road, Tiger Circle, and MIT Food Court."
+            ]
+        },
+        {
+            "tag": "manipal_restaurants_cafes_faq_recommendations",
+            "patterns": [
+                "Can you recommend some restaurants and cafes in Manipal?",
+                "Best places to eat in Manipal",
+                "Top dining spots in Manipal",
+                "Favorite cafes in Manipal"
+            ],
+            "responses": [
+                "Certainly! Some popular restaurants and cafes in Manipal include Hangyo Ice Cream, Dollops, Snack Shack, Crumbz, and Red Rock Cafe."
+            ]
+        },
+        {
+            "tag": "manipal_restaurants_cafes_faq_opening_hours",
+            "patterns": [
+                "What are the opening hours of restaurants and cafes in Manipal?",
+                "Manipal dining hours",
+                "Operating times of eateries in Manipal",
+                "When do restaurants and cafes in Manipal open and close?"
+            ],
+            "responses": [
+                "The opening hours of restaurants and cafes in Manipal vary depending on the establishment. Generally, cafes open around 8 AM and close around 10 PM, while restaurants may have longer operating hours, some staying open until midnight or later."
+            ]
+        },
+        {
+            "tag": "manipal_restaurants_cafes_faq_delivery",
+            "patterns": [
+                "Do restaurants and cafes in Manipal offer delivery services?",
+                "Home delivery from Manipal eateries",
+                "Delivery options for food in Manipal",
+                "Can I get food delivered from restaurants and cafes in Manipal?"
+            ],
+            "responses": [
+                "Yes, many restaurants and cafes in Manipal offer delivery services. You can either order directly from the establishment or use third-party food delivery apps like Swiggy or Zomato to get your favorite food delivered to your doorstep."
+            ]
+        },
+        {
+            "tag": "manipal_restaurants_cafes_faq_payment",
+            "patterns": [
+                "What payment methods are accepted at restaurants and cafes in Manipal?",
+                "Accepted payment modes at Manipal dining places",
+                "Can I pay with card at eateries in Manipal?",
+                "Do restaurants and cafes in Manipal accept digital payments?"
+            ],
+            "responses": [
+                "Most restaurants and cafes in Manipal accept cash as well as digital payments. Some establishments also accept card payments, but it's always a good idea to check beforehand to avoid any inconvenience."
+            ]
+        },
+        {
+            "tag": "manipal_places_to_visit_faq_attractions",
+            "patterns": [
+                "What are some popular attractions in Manipal?",
+                "Must-visit places in Manipal",
+                "Top tourist spots in Manipal",
+                "Famous landmarks in Manipal"
+            ],
+            "responses": [
+                "Manipal boasts several attractions that cater to diverse interests. Some popular places to visit include End Point, Anatomy Museum, Hasta Shilpa Heritage Village, Venugopal Temple, and Malpe Beach."
+            ]
+        },
+        {
+            "tag": "manipal_places_to_visit_faq_accessibility",
+            "patterns": [
+                "How accessible are the tourist attractions in Manipal?",
+                "Ease of reaching places in Manipal",
+                "Accessibility of Manipal landmarks",
+                "Are the tourist spots in Manipal easy to reach?"
+            ],
+            "responses": [
+                "Most tourist attractions in Manipal are easily accessible by road. You can use local transportation options like buses, auto-rickshaws, or taxis to reach these places conveniently. Some attractions like End Point are also within walking distance from the town center."
+            ]
+        },
+        {
+            "tag": "manipal_places_to_visit_faq_timing",
+            "patterns": [
+                "What are the visiting hours of attractions in Manipal?",
+                "Opening times of Manipal tourist spots",
+                "When can I visit places in Manipal?",
+                "Operating hours of attractions in Manipal"
+            ],
+            "responses": [
+                "The visiting hours of attractions in Manipal vary depending on the specific place. Generally, most attractions are open to visitors during the day, with timings ranging from morning until early evening. It's advisable to check the opening hours of individual attractions before planning your visit."
+            ]
+        },
+        {
+            "tag": "manipal_places_to_visit_faq_entry_fee",
+            "patterns": [
+                "Is there an entry fee for visiting attractions in Manipal?",
+                "Cost of entry to Manipal tourist spots",
+                "Do I need to pay for visiting places in Manipal?",
+                "Are there any admission charges for Manipal landmarks?"
+            ],
+            "responses": [
+                "Entry fees may apply to some tourist attractions in Manipal, while others may be free to visit. The entry fee, if applicable, varies for each attraction. It's recommended to inquire about entry fees beforehand or check the official website of the attraction."
+            ]
+        },
+        {
+            "tag": "manipal_places_to_visit_faq_guided_tours",
+            "patterns": [
+                "Are guided tours available for exploring Manipal attractions?",
+                "Can I join guided tours of Manipal landmarks?",
+                "Guided sightseeing in Manipal",
+                "How can I book a guided tour of Manipal?"
+            ],
+            "responses": [
+                "Yes, guided tours are available for exploring certain attractions in Manipal. You can inquire about guided tour options at tourist information centers or through tour operators in the area. Some attractions may offer guided tours as part of their visitor experience."
+            ]
+        },
+        {
+            "tag": "manipal_basic_needs_faq_groceries",
+            "patterns": [
+                "Where can I buy groceries in Manipal?",
+                "Grocery stores in Manipal",
+                "Best place to buy groceries in Manipal",
+                "Nearest grocery shop in Manipal"
+            ],
+            "responses": [
+                "Manipal has several grocery stores catering to the daily needs of residents and students. Some popular options include Big Mart, More Supermarket, and Reliance Fresh, among others."
+            ]
+        },
+        {
+            "tag": "manipal_basic_needs_faq_pharmacies",
+            "patterns": [
+                "Where are the pharmacies located in Manipal?",
+                "Medical stores in Manipal",
+                "Pharmacy near me in Manipal",
+                "Best place to buy medicines in Manipal"
+            ],
+            "responses": [
+                "There are numerous pharmacies and medical stores located across Manipal, ensuring easy access to medicines and healthcare products. Some well-known pharmacies include Apollo Pharmacy, Manipal Pharmacy, and Guardian Pharmacy."
+            ]
+        },
+        {
+            "tag": "manipal_basic_needs_faq_atms",
+            "patterns": [
+                "Where are the ATMs situated in Manipal?",
+                "ATM locations in Manipal",
+                "Nearest ATM in Manipal",
+                "Best place to find ATMs in Manipal"
+            ],
+            "responses": [
+                "ATMs are conveniently located throughout Manipal, ensuring easy access to cash. Major banks have their ATMs spread across the town, and you can also find ATMs near commercial areas, educational institutions, and hospitals."
+            ]
+        },
+        {
+            "tag": "manipal_basic_needs_faq_hospitals",
+            "patterns": [
+                "Where are the hospitals and clinics located in Manipal?",
+                "Medical facilities in Manipal",
+                "Best hospital in Manipal",
+                "Nearest clinic in Manipal"
+            ],
+            "responses": [
+                "Manipal is equipped with several hospitals, clinics, and medical centers providing healthcare services to residents and visitors. Some prominent healthcare facilities in the area include Kasturba Hospital, Dr. TMA Pai Hospital, and Manipal Hospital."
+            ]
+        },
+        {
+            "tag": "manipal_basic_needs_faq_petrol_pumps",
+            "patterns": [
+                "Where can I find petrol pumps in Manipal?",
+                "Gas stations in Manipal",
+                "Nearest petrol pump in Manipal",
+                "Best place to refuel in Manipal"
+            ],
+            "responses": [
+                "Petrol pumps are conveniently located across Manipal, ensuring easy access to fuel for vehicles. Some well-known petrol pumps in the area include Indian Oil, Bharat Petroleum, and HPCL outlets."
+            ]
+        }
+    ]
+}
